@@ -3,10 +3,11 @@ body {
   text-align: center;
 }
 
-#header {
+#header,#subheader {
   background-image: url("../images/the-flatiron-building.png");
   background-repeat: no-repeat;
   font-family: helvetica;
+  color: white;
 }
 
 h1,h2,h3 {
@@ -15,7 +16,6 @@ h1,h2,h3 {
 
 h1 {
   font-size: 70px;
-  color: white;
 }
 
 h2 {
@@ -30,13 +30,15 @@ h3 {
   font-size: 18px;
   color: white;
   list-style-type: none;
+}
 
+.sub h3 {
+  color: white;
 }
 
 a {
   color: white;
 }
-
 p {
   font-size: 14px;
 }
